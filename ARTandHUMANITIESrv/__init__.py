@@ -11,3 +11,9 @@ def name_string(name):
 	  b = "Github"
 	  result = name + b
 	  return result
+
+def bool_to_string(flag):
+	return str(flag)
+
+def give_me_something(a):
+	return "something " + a

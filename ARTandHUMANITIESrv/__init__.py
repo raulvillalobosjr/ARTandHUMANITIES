@@ -3,3 +3,6 @@ def get_first_value(number_list):
 
 def football_points(wins, draws, losses):
 	return (wins*3)+draws
+
+def animals(chickens, cows, pigs):
+	return (chickens*2)+((cows+pigs)*4)

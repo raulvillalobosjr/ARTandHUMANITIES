@@ -29,3 +29,6 @@ def hello_name(name):
 
 def is_equal(obj_one, obj_two):
 	return obj_one==obj_two
+
+def profitable_gamble(prob, prize, pay):
+	return((prob*prize)-pay)>0

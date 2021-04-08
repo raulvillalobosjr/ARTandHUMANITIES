@@ -6,3 +6,8 @@ def football_points(wins, draws, losses):
 
 def animals(chickens, cows, pigs):
 	return (chickens*2)+((cows+pigs)*4)
+
+def name_string(name):
+	  b = "Github"
+	  result = name + b
+	  return result

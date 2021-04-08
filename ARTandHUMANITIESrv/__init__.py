@@ -17,3 +17,6 @@ def bool_to_string(flag):
 
 def give_me_something(a):
 	return "something " + a
+
+def points(twopointers, threepointers):
+	return (twopointers*2)+(threepointers*3)

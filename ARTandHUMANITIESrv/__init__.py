@@ -26,3 +26,6 @@ def get_last_item(lst):
 
 def hello_name(name):
 	return "Hello " + name +"!"
+
+def is_equal(obj_one, obj_two):
+	return obj_one==obj_two

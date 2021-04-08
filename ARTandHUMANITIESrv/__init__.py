@@ -20,3 +20,9 @@ def give_me_something(a):
 
 def points(twopointers, threepointers):
 	return (twopointers*2)+(threepointers*3)
+
+def get_last_item(lst):
+	return lst[-1]
+
+def hello_name(name):
+	return "Hello " + name +"!"

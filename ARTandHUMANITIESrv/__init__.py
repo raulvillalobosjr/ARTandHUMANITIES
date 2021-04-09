@@ -35,3 +35,6 @@ def profitable_gamble(prob, prize, pay):
 
 def comp(txt1, txt2):
 	return len(txt1)==len(txt2)
+
+def is_empty(s):
+	return len(s)==0

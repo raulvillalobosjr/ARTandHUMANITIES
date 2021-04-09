@@ -32,3 +32,6 @@ def is_equal(obj_one, obj_two):
 
 def profitable_gamble(prob, prize, pay):
 	return((prob*prize)-pay)>0
+
+def comp(txt1, txt2):
+	return len(txt1)==len(txt2)

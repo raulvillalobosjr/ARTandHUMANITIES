@@ -41,3 +41,9 @@ def is_empty(s):
 
 def repetition(txt, n):
 	return txt*n
+
+def front3(txt):
+	if len(txt)<=3:
+		return txt*3
+	else:
+		return txt[0:3]*3

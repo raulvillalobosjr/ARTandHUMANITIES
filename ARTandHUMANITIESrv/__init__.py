@@ -38,3 +38,6 @@ def comp(txt1, txt2):
 
 def is_empty(s):
 	return len(s)==0
+
+def repetition(txt, n):
+	return txt*n

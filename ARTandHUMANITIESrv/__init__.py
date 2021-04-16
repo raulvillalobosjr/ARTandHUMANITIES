@@ -47,3 +47,6 @@ def front3(txt):
 		return txt*3
 	else:
 		return txt[0:3]*3
+
+def concat_name(first_name, last_name):
+	return last_name + ", " + first_name

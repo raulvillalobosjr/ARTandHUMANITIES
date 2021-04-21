@@ -59,3 +59,9 @@ def first_last(name):
 
 def odd_or_even(word):
 	return (len(word))%2==0
+
+def greeting(name):
+	if name == "Mubashir":
+		return "Hello, my Love!"
+	else:
+		return "Hello, " + name + "!"

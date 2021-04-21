@@ -50,3 +50,6 @@ def front3(txt):
 
 def concat_name(first_name, last_name):
 	return last_name + ", " + first_name
+
+def total_amount_adjectives(dct):
+	return len(dct)

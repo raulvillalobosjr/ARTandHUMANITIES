@@ -56,3 +56,6 @@ def total_amount_adjectives(dct):
 
 def first_last(name):
   return name[0]+name[-1]
+
+def odd_or_even(word):
+	return (len(word))%2==0

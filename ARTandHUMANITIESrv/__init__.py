@@ -53,3 +53,6 @@ def concat_name(first_name, last_name):
 
 def total_amount_adjectives(dct):
 	return len(dct)
+
+def first_last(name):
+  return name[0]+name[-1]

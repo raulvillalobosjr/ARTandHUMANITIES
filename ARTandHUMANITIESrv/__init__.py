@@ -65,3 +65,6 @@ def greeting(name):
 		return "Hello, my Love!"
 	else:
 		return "Hello, " + name + "!"
+
+def num_to_dashes(num):
+	return "-"*num

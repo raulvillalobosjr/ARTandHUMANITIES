@@ -68,3 +68,9 @@ def greeting(name):
 
 def num_to_dashes(num):
 	return "-"*num
+
+def isEvenOrOdd(num):
+	if num%2==0:
+		return "even"
+	else:
+		return "odd"

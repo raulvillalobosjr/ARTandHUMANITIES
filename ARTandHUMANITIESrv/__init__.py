@@ -71,3 +71,6 @@ def num_to_dashes(num):
 
 def is_plural(word):
 	return word[-1]=="s"
+
+def is_last_character_n(word):
+	return word[-1] in "nN"

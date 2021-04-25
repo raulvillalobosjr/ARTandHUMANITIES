@@ -92,3 +92,6 @@ def long_burp(num):
 
 def remove_numbers(string):
     return "".join(i for i in string if i in "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ")
+
+def new_word(word):
+	return word[1:]

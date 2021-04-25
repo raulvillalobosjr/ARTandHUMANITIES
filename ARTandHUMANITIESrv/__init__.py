@@ -95,3 +95,11 @@ def remove_numbers(string):
 
 def new_word(word):
 	return word[1:]
+
+def birthday_cake_candles(candles):
+	high = sorted(candles)[-1]
+	num = []
+	for i in candles:
+		if i == high:
+			num.append(i)
+	return len(num)

@@ -89,3 +89,6 @@ def get_container(product):
 
 def long_burp(num):
 	return "Bu" +("r"*num)+"p"
+
+def remove_numbers(string):
+    return "".join(i for i in string if i in "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ")

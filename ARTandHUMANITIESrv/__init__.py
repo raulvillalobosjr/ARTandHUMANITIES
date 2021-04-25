@@ -86,3 +86,6 @@ def get_container(product):
 	"Cheese" : None
 	}
 	return matches[product]
+
+def long_burp(num):
+	return "Bu" +("r"*num)+"p"

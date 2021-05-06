@@ -108,3 +108,7 @@ def birthday_cake_candles(candles):
 
 def has_spaces(txt):
 	return " " in txt
+
+def programmers(one, two, three):
+	lst = [one, two, three]
+	return max(lst) - min(lst)

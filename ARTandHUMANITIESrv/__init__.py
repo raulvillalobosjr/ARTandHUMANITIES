@@ -115,3 +115,6 @@ def programmers(one, two, three):
 
 def first_last(lst):
 	return [lst[0], lst[-1]]
+
+def how_many_times(num):
+	return "Ed" + (num*"a")+ "bit"

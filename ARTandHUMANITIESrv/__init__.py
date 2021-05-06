@@ -112,3 +112,6 @@ def has_spaces(txt):
 def programmers(one, two, three):
 	lst = [one, two, three]
 	return max(lst) - min(lst)
+
+def first_last(lst):
+	return [lst[0], lst[-1]]

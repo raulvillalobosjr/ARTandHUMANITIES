@@ -105,3 +105,6 @@ def birthday_cake_candles(candles):
 		if i == high:
 			num.append(i)
 	return len(num)
+
+def has_spaces(txt):
+	return " " in txt

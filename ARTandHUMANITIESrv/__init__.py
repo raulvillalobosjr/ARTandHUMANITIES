@@ -135,3 +135,6 @@ def repeat_string(txt, n):
 
 def how_many_walls(n, w, h):
 	return math.floor(n/(w*h))
+
+def equal_slices(total, people, each):
+	return people*each<=total

@@ -1,3 +1,5 @@
+import math
+
 def get_first_value(number_list):
 	return number_list[0]
 
@@ -130,3 +132,6 @@ def repeat_string(txt, n):
 		return txt*n
 	else:
 		return "Not A String !!"
+
+def how_many_walls(n, w, h):
+	return math.floor(n/(w*h))

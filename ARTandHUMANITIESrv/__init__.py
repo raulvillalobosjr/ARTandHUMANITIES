@@ -147,3 +147,6 @@ def wumbo(words):
 		else:
 			lst.append(i)
 	return "".join(lst)
+
+def match(s1, s2):
+	return s1.lower() == s2.lower()

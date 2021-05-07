@@ -138,3 +138,12 @@ def how_many_walls(n, w, h):
 
 def equal_slices(total, people, each):
 	return people*each<=total
+
+def wumbo(words):
+	lst=[]
+	for i in words:
+		if i == "M":
+			lst.append("W")
+		else:
+			lst.append(i)
+	return "".join(lst)

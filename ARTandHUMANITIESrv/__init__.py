@@ -153,3 +153,6 @@ def match(s1, s2):
 
 def potatoes(potato):
 	return potato.count("potato")
+
+def get_fillings(sandwich):
+	return sandwich[1:-1]

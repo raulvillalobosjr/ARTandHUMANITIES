@@ -156,3 +156,6 @@ def potatoes(potato):
 
 def get_fillings(sandwich):
 	return sandwich[1:-1]
+
+def count_claps(txt):
+	return txt.count("C")

@@ -168,3 +168,10 @@ def googlify(n):
 		return "G"+("o"*n)+"gle"
 	else:
 		return "invalid"
+
+def count_syllables(txt):
+	lst=[]
+	for i in txt:
+		if i.lower() in "aeiou":
+			lst.append(i)
+	return len(lst)

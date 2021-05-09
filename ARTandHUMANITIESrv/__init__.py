@@ -162,3 +162,9 @@ def count_claps(txt):
 
 def has_same_bread(lst1, lst2):
 	return [lst1[0],lst1[-1]] == [lst2[0],lst2[-1]]
+
+def googlify(n):
+	if n >= 2:
+		return "G"+("o"*n)+"gle"
+	else:
+		return "invalid"

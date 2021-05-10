@@ -175,3 +175,9 @@ def count_syllables(txt):
 		if i.lower() in "aeiou":
 			lst.append(i)
 	return len(lst)
+
+def fifty_thirty_twenty(ati):
+	needs= ati*0.5
+	wants= ati*0.3
+	savings= ati*0.2
+	return {"Needs": needs, "Wants": wants, "Savings": savings}

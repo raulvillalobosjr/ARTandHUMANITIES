@@ -186,3 +186,6 @@ def count_d(sentence):
 	cap=sentence.count("D")
 	low=sentence.count("d")
 	return cap+low
+
+def how_many_stickers(n):
+	return ((n*n)*6)

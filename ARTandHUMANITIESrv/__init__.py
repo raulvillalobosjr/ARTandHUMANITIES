@@ -181,3 +181,8 @@ def fifty_thirty_twenty(ati):
 	wants= ati*0.3
 	savings= ati*0.2
 	return {"Needs": needs, "Wants": wants, "Savings": savings}
+
+def count_d(sentence):
+	cap=sentence.count("D")
+	low=sentence.count("d")
+	return cap+low

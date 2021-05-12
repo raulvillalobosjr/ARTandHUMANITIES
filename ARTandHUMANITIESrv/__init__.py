@@ -189,3 +189,9 @@ def count_d(sentence):
 
 def how_many_stickers(n):
 	return ((n*n)*6)
+
+def maximumWealth(accounts):
+    lst=[]
+    for i in accounts:
+        lst.append(sum(i))
+    return max(lst)

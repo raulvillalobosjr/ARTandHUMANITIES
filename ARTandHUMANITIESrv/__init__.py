@@ -195,3 +195,13 @@ def maximumWealth(accounts):
     for i in accounts:
         lst.append(sum(i))
     return max(lst)
+
+def kidsWithCandies(candies, extraCandies):
+    lst=[]
+    top=max(candies)
+    for i in candies:
+        if (i + extraCandies) >= top:
+            lst.append(True)
+        else:
+            lst.append(False)
+    return lst

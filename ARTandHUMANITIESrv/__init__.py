@@ -235,3 +235,6 @@ def forbidden_letter(char, lst):
 
 def add(char, txt):
 	return txt.replace(" ", char)
+
+def smash_factor(bs, cs):
+	return round(bs/cs,2)

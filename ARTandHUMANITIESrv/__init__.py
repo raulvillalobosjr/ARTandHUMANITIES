@@ -244,3 +244,6 @@ def distance_home(lst):
 	    return -(sum(lst))
     else:
 	    return sum(lst)
+
+def yen_to_usd(yen):
+	return round(yen/107.5,2)

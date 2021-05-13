@@ -247,3 +247,13 @@ def distance_home(lst):
 
 def yen_to_usd(yen):
 	return round(yen/107.5,2)
+
+def check_title(txt):
+    lst=[]
+    lsti=[]
+    for i in txt.split(" "):
+        if i[0] == i[0].upper():
+            lst.append(i)
+        else:
+            lsti.append(i)
+    return len(lsti)==0

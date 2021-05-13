@@ -205,3 +205,10 @@ def kidsWithCandies(candies, extraCandies):
         else:
             lst.append(False)
     return lst
+
+def numJewelsInStones(jewels, stones):
+    lst=[]
+    for i in stones:
+        if i in jewels:
+            lst.append(i)
+    return len(lst)

@@ -238,3 +238,9 @@ def add(char, txt):
 
 def smash_factor(bs, cs):
 	return round(bs/cs,2)
+
+def distance_home(lst):
+    if sum(lst)<0:
+	    return -(sum(lst))
+    else:
+	    return sum(lst)

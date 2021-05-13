@@ -232,3 +232,6 @@ def forbidden_letter(char, lst):
 			else:
 				st=True
 	return st
+
+def add(char, txt):
+	return txt.replace(" ", char)

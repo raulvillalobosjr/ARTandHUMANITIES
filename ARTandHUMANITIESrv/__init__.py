@@ -212,3 +212,10 @@ def numJewelsInStones(jewels, stones):
         if i in jewels:
             lst.append(i)
     return len(lst)
+
+def rotate_by_one(lst):
+	lsti=[]
+	lsti.append(lst[-1])
+	for i in lst[:-1]:
+		lsti.append(i)
+	return lsti

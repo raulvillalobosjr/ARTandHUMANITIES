@@ -219,3 +219,16 @@ def rotate_by_one(lst):
 	for i in lst[:-1]:
 		lsti.append(i)
 	return lsti
+
+def forbidden_letter(char, lst):
+	st=[]
+	if lst == []:
+		st = True
+	else:
+		for i in lst:
+			if char in i:
+				st = False
+				break
+			else:
+				st=True
+	return st

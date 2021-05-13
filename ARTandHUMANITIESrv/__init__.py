@@ -257,3 +257,9 @@ def check_title(txt):
         else:
             lsti.append(i)
     return len(lsti)==0
+
+def create_id(firstname, lastname):
+    lst=[]
+    lst.append(firstname[0].lower())
+    lst.append(lastname.capitalize()[:3])
+    return "".join(lst)
